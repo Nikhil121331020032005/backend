@@ -1,7 +1,9 @@
 {
   "version": 2,
- "env": {
-  "MONGODB_URI": "mongodb+srv://nik_13:nik_13@cluster0.zewi096.mongodb.net/nikdatabase?retryWrites=true&w=majority&appName=Cluster0",
-  "JWT_KEY": "QWERTYUIOP"
-}
+  "builds": [
+    { "src": "server.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/server.js" }
+  ]
 }
