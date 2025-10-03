@@ -1,4 +1,4 @@
-const Anilist = require("../models/user");
+const Anilist = require("../models/User.js");
 
 
 // Home route
