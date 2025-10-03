@@ -1,4 +1,5 @@
-const Anilist = require("../models/User.js");
+import jwt from "jsonwebtoken";
+import Anilist from "../models/User";
 
 
 // Home route

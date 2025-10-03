@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken'); 
+import mongoose from "mongoose";
+import jwt from "jsonwebtoken";
 
 const anilistSchema = new mongoose.Schema({
     username:{

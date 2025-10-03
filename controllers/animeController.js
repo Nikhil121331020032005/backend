@@ -1,4 +1,5 @@
-const UserAnime = require("../models/UserAnime");
+import UserAnime from "../models/UserAnime.js";
+
 
 // Add anime to user's dashboard
 exports.addAnime = async (req, res) => {
